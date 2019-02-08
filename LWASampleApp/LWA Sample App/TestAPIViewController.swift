@@ -9,19 +9,21 @@
 import UIKit
 import LoginWithAmazon
 
-class TestAPIViewController: UIViewController, AIAuthenticationDelegate {
-    
-    @IBOutlet weak var loginBtn: UIButton!
-    @IBOutlet weak var logoutBtn: UIButton!
-    
-    let lwa = LoginWithAmazonProxy.sharedInstance
+class TestAPIViewController: UIViewController {
+
+    @IBOutlet weak var testAPIButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Try login at the beginning, if user is already logged in, acquire access token
-        lwa.login(delegate: self)
+
     }
     
+    @IBAction func touchBack(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func testAPIAction(_ sender: Any) {
+        print("Test API action pressed")
+    }
 }
 

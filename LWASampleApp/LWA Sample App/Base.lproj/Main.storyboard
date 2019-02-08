@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LWA_Sample_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="LWA_Sample_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -37,17 +37,66 @@
                                     <action selector="onClickLogoutBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g8F-1M-KCM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4p2-Wh-jGz">
+                                <rect key="frame" x="0.0" y="488" width="375" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TestAPI"/>
+                                <connections>
+                                    <action selector="testAPI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QLO-8S-0Me"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="Cwl-jV-54U" id="bNd-St-L7M"/>
                         <outlet property="logoutBtn" destination="GXH-Xp-FBq" id="CK6-ki-hcw"/>
+                        <outlet property="testAPIButton" destination="4p2-Wh-jGz" id="uWR-3B-MQE"/>
+                        <segue destination="k34-00-EEw" kind="show" identifier="PresentTestAPI" id="rXO-SD-Ig9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+        <!--TestAPI View Controller-->
+        <scene sceneID="AUG-aV-xho">
+            <objects>
+                <viewController storyboardIdentifier="TestAPIViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k34-00-EEw" customClass="TestAPIViewController" customModule="LWA_Sample_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kOd-tY-AjH"/>
+                        <viewControllerLayoutGuide type="bottom" id="CiA-zd-gOY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Haj-ma-9PD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9x-4M-9Bs" userLabel="API Call Btn">
+                                <rect key="frame" x="0.0" y="402" width="375" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Test API Call"/>
+                                <connections>
+                                    <action selector="testAPIAction:" destination="k34-00-EEw" eventType="touchUpInside" id="9pa-Uy-LsU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MG-cn-JVE" userLabel="API Call Btn">
+                                <rect key="frame" x="0.0" y="434" width="375" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="touchBack:" destination="k34-00-EEw" eventType="touchUpInside" id="GGz-Nv-gma"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="testAPIButton" destination="H9x-4M-9Bs" id="Td2-eW-9Wd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aa6-h9-e1q" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="124"/>
         </scene>
     </scenes>
 </document>

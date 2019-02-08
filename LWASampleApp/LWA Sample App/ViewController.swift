@@ -13,9 +13,10 @@ class ViewController: UIViewController, AIAuthenticationDelegate {
     
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var logoutBtn: UIButton!
+    @IBOutlet weak var testAPIButton: UIButton!
     
     let lwa = LoginWithAmazonProxy.sharedInstance
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,23 +32,29 @@ class ViewController: UIViewController, AIAuthenticationDelegate {
         lwa.logout(delegate: self)
     }
     
+    @IBAction func testAPI(_ sender: Any) {
+        self.performSegue(withIdentifier: "PresentTestAPI", sender: self)
+    }
+    
     func requestDidSucceed(_ apiResult: APIResult) {
 
         switch(apiResult.api) {
-        case API.authorizeUser:
-            print("Authorized")
-            lwa.getAccessToken(delegate: self)
-        case API.getAccessToken:
-            print("Login successfully!")
-            loginBtn.isEnabled = false
-            logoutBtn.isEnabled = true
-        case API.clearAuthorizationState:
-            print("Logout successfully!")
-            loginBtn.isEnabled = true
-            logoutBtn.isEnabled = false
-        default:
-            return
-        }
+            case API.authorizeUser:
+                print("Authorized")
+                lwa.getAccessToken(delegate: self)
+            case API.getAccessToken:
+                print("Login successfully!")
+                loginBtn.isEnabled = false
+                logoutBtn.isEnabled = true
+                testAPIButton.isEnabled = true
+            case API.clearAuthorizationState:
+                print("Logout successfully!")
+                loginBtn.isEnabled = true
+                logoutBtn.isEnabled = false
+                testAPIButton.isEnabled = false
+            default:
+                return
+            }
     }
     
     func requestDidFail(_ errorResponse: APIError) {
