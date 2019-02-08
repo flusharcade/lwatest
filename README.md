@@ -20,4 +20,6 @@ https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html
 
 Login in with your Amazon account and select Create a New Security Profile.
 
+![alt text](https://github.com/flusharcade/lwatest/blob/master/README%20Images/lwa-console.png)
+
 https://developer.amazon.com/docs/login-with-amazon/use-sdk-ios.html
