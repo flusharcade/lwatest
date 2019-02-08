@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>APIKey</key>
-	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LjZiNWU1MjMzNjdlNzQyNzRiOTZlMTVjYTJmOTA3ZGU1IiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi45ZWQxMGFlMDYwYjE0NjA4YmYyMWRkMDg5ZjA3ZjVmYiIsImJ1bmRsZVNlZWRJZCI6ImJpc2hlbmcuTFdBLVNhbXBsZS1BcHAiLCJidW5kbGVJZCI6ImJpc2hlbmcuTFdBLVNhbXBsZS1BcHAiLCJpc3MiOiJBbWF6b24iLCJ0eXBlIjoiQVBJS2V5IiwiYXBwVmFyaWFudElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LmIxNmM5YjZmNGRkNDRlZWNhOGE2NDg4OGRkZTcwZjg3IiwidHJ1c3RQb29sIjpudWxsLCJhcHBJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC5iMTZjOWI2ZjRkZDQ0ZWVjYThhNjQ4ODhkZGU3MGY4NyIsImlkIjoiNTJlM2Y4MWUtZjYwNS0xMWU2LTg2ZGUtZTUwOGRiNmIwMGJkIiwiaWF0IjoiMTQ4NzQ0MTM0MDc0NiJ9.SFD35bvXrbSt8FofaGHMXlZhimUhuYSFbFdu4uB9P0L0YXl1rvnIDlpDSJzUYM2SrAlhL0bE7dHyGqCb8n3UbsLJH4o8bSm6Jof2AmWu32vGB5DJhFtiFircjRepOMX+9wGPdRgAczC2pp59PYY0X6XO0tEY3gXLuKUv+kFpbQa82wi8bozg8Lag4gfZjA4jPRnqCg7huAyz617IbUVz/0yVm6LN4I5+BBdn/aaDDjLxW5bD7ZEqSVM/f/T+ljkR5Re7PFFKAuCx6/xQnuFMngq3j7cjjVdwqv5afneIPnc5XY7zvbLLz5ggPghwK9oYYJdlRP1cdXphwiSGuIqH0w==</string>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LjY1MWM1YzgxYTI0ODRlNTFiMTljZTNjM2Y4YmU0Y2FlIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi4xNWM3ZTU2MzhjNTY0ZDM2OTI0NmUxZWFlZmFkNGRhMiIsImJ1bmRsZVNlZWRJZCI6ImNvbS5hbWF6b24udGVzdC1sd2EiLCJidW5kbGVJZCI6ImNvbS5hbWF6b24udGVzdC1sd2EiLCJpc3MiOiJBbWF6b24iLCJ0eXBlIjoiQVBJS2V5IiwiYXBwVmFyaWFudElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LmNkZThlYjc0Zjg4OTQ5OTI5ZDEwNDc3MGY1MjVlODRkIiwidHJ1c3RQb29sIjpudWxsLCJhcHBJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC5jZGU4ZWI3NGY4ODk0OTkyOWQxMDQ3NzBmNTI1ZTg0ZCIsImlkIjoiMjM0NzRhYTQtMmJjZi0xMWU5LThjYjMtYmY2NDEwNjdjNzgyIiwiaWF0IjoiMTU0OTY1MDQyNjE4NyJ9.PkzeYfYVPml0KSmAiEV/nnP52x19PYaSj67ToZwrRLy+KCsnzGmqrRJJ/6w7hQjevAfVhuDArxLVFtuhqKVEWlTeKjqds2Q+Fh3zM6ryr2OKh1jFcnp+nRLmHl1DuQCNGXLskItw/uzjhlsoJegC+rbTsqAX56OlC9hi4xG/yf9yOb2lsaxQFXc5icdKKea/xVqCanSbM7S4DkQedB2d9lyCc2WghQreBsDPbNc9mp8Jug/Oi+wTDxoFOMMkvvcGQbldhpg+ufZ4KJNp1L7JLwMQtBpWJi0cG02KPjzAaIRHzYRqULvJr2vJ139nR9eMImd8QQf2cyuk2HqFfYlc6g==</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -18,6 +18,17 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.amazon.test-lwa</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.amazon.test-lwa</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -29,17 +40,6 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
-	</array>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>amzn-bisheng.LWA-Sample-App</string>
-			</array>
-			<key>CFBundleURLName</key>
-			<string>bisheng.LWA-Sample-App</string>
-		</dict>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

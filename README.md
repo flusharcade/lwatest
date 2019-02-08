@@ -1,5 +1,6 @@
-# login-with-amazon-swift3-sample-app
-A sample iOS/Swift3 app that demonstrates Login with Amazon
+# LWA Test App
+
+Forked from https://github.com/grimlockrocks/login-with-amazon-swift3-sample-app
 
 Instructions:
 * Check-out the code, modify Bundle Identifier to something you like.
@@ -10,3 +11,10 @@ eg. <your_bundle_identifier> -> amzn-<your_bundle_identifier>
 
 * Set up a new security profile: https://developer.amazon.com/lwa/sp/overview.html, generate a new iOS API. 
 * Modify the value of APIKey under "info.plist" to use your API key. 
+
+# Setup iOS API Key
+
+Visit:
+
+https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html
+
