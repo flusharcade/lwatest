@@ -20,5 +20,4 @@ https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html
 
 Login in with your Amazon account and select Create a New Security Profile
 
-
-
+![Image of LWA] http://tinypic.com/r/vg2yx1/9
